@@ -73,7 +73,7 @@
 				
 				window.localStorage.setItem('url_voltar','home.html');
 				
-				$.get("https://justrunplay.com.br/app_api_apple/perfil.php", { id_usuarios:id_usuarios }, function(data){ $("#perfil-conteudo").html(data); });
+				$.get("https://justrunplay.com.br/app_api/perfil.php", { id_usuarios:id_usuarios }, function(data){ $("#perfil-conteudo").html(data); });
 				
 				$('#home-rodape1').click(function(){
 					$.mobile.changePage("home.html", { transition: "fade", changeHash: false });

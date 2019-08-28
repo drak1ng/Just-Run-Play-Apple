@@ -81,7 +81,7 @@
 				
 				window.localStorage.setItem('url_voltar','favoritos.html');
 				
-				$.get("https://justrunplay.com.br/app_api/favoritos.php", { id_usuarios:id_usuarios }, function(data){ $("#favoritos-conteudo").html(data); });
+				$.get("https://justrunplay.com.br/app_api_apple/favoritos.php", { id_usuarios:id_usuarios }, function(data){ $("#favoritos-conteudo").html(data); });
 				
 				
 				$('#favoritos-rodape1').click(function(){

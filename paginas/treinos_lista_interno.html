@@ -88,7 +88,7 @@
 					$.mobile.changePage(url_voltar, { transition: "fade", changeHash: false });
 				});
 				
-				$.get("https://justrunplay.com.br/app_api/treinos-lista-interno.php", { id_usuarios:id_usuarios, categoria_id:categoria_id, treino_id:treino_id }, function(data){ $("#treinos-lista-interno-conteudo").html(data); });
+				$.get("https://justrunplay.com.br/app_api_apple/treinos-lista-interno.php", { id_usuarios:id_usuarios, categoria_id:categoria_id, treino_id:treino_id }, function(data){ $("#treinos-lista-interno-conteudo").html(data); });
 				
 				$('#treinos-lista-interno-rodape1').click(function(){
 					$.mobile.changePage("home.html", { transition: "fade", changeHash: false });

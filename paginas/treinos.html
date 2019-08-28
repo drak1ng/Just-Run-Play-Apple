@@ -79,7 +79,7 @@
 					$('.perfil-topo').css('background-image','url('+foto_usuarios+')');
 				}
 				
-				$.get("https://justrunplay.com.br/app_api/treinos.php", { id_usuarios:id_usuarios }, function(data){ $("#treinos-conteudo").html(data); });
+				$.get("https://justrunplay.com.br/app_api_apple/treinos.php", { id_usuarios:id_usuarios }, function(data){ $("#treinos-conteudo").html(data); });
 				
 				$('#treinos-rodape1').click(function(){
 					$.mobile.changePage("home.html", { transition: "fade", changeHash: false });

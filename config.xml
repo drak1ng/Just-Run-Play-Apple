@@ -2,8 +2,8 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id        = "com.justrun.play"
-	versionCode="109" 
-	version   = "1.0.9">
+	versionCode="110" 
+	version   = "1.1.0">
 	<name>Just Run Play</name>
 	<description>
 		Just Run
